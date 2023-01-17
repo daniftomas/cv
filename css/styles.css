@@ -1,10 +1,29 @@
+/*****************************TAG SELECTORS**************************/
+
 body {
     background-color: lightcyan;
 }
 
+h1{
+    color: cadetblue;
+}
+
+h3{
+    color: cadetblue;
+}
+
 hr {
+    border-color: #86C8BC;
     border-style: dotted none none;
     border-width: 6px;
-    border-color: #86C8BC;
     width: 8%;
+}
+
+/*****************************CLASS SELECTORS**************************/
+
+
+/*****************************ID SELECTORS**************************/
+
+#my-photo {
+    border-radius: 100%;
 }
