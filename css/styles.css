@@ -1,15 +1,19 @@
 /*****************************TAG SELECTORS**************************/
 
 body {
-    background-color: lightcyan;
+    background-color: #98DDCA;
+    margin: 0 ;
+    text-align: center;
 }
 
 h1{
-    color: cadetblue;
+    color: #FF8080;
+    font-family: 'Brush Script MT';
+
 }
 
 h3{
-    color: cadetblue;
+    color: #AAC4FF;
 }
 
 hr {
@@ -19,7 +23,43 @@ hr {
     width: 8%;
 }
 
+p {
+    color: #FFBA92;
+    font-family: 'Roboto Light';
+}
+
+
 /*****************************CLASS SELECTORS**************************/
+.introduction-box{
+    background-color: #FCF9EC;
+    position: relative;
+    padding-top: 50px;
+}
+
+
+.top-bow{
+    width: 100px;
+    height: 100px;
+    opacity: 0.75;
+    position: absolute;
+    right: 250px;
+    top: 20px;
+    transform: rotate(25deg);
+}
+
+.bottom-bow{
+    width: 100px;
+    height: 100px;
+    opacity: 0.75;
+    position: absolute;
+    top: 150px;
+    left: 280px;
+    transform: rotate(-25deg);
+}
+
+.greeting-cats{
+    margin-top: 100px;
+}
 
 
 /*****************************ID SELECTORS**************************/
